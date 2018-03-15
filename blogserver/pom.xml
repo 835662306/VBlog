@@ -71,10 +71,10 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.slf4j</groupId>-->
+			<!--<artifactId>slf4j-log4j12</artifactId>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
@@ -83,14 +83,14 @@
 	</dependencies>
 
 	<build>
-		<resources>
+		<!--<resources>
 			<resource>
 				<directory>src/main/java</directory>
 				<includes>
 					<include>**/*.xml</include>
 				</includes>
 			</resource>
-		</resources>
+		</resources>-->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
